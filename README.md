@@ -36,7 +36,7 @@ TrieFile::File.open('/path/to/file', 'wb') do |f|
 end
 ```
 
-Open a file handle to a trie and search it:
+Open a file handle to a trie and search it _on disk_:
 
 ```ruby
 trie_file = TrieFile::File.open('/path/to/file', 'rb')
