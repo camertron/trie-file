@@ -35,7 +35,7 @@ module TrieFile
       file
     end
 
-    def self.read(path, hash_mode)
+    def self.read(path, hash_mode = :none)
       root = nil
 
       ::File.open(path, 'rb') do |io|
