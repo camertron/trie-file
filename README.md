@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/camertron/trie-file.svg?branch=master)](https://travis-ci.org/camertron/trie-file)
+
 trie-file
 =========
 
