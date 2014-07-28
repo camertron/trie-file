@@ -35,14 +35,14 @@ module TrieFile
       file
     end
 
-    def self.read(path)
+    def self.read(path, hash_mode)
       root = nil
 
       ::File.open(path, 'rb') do |io|
         root = read_node(io)
       end
 
-      Trie.new(root)
+      Trie.new(root, hash_mode)
     end
 
     def initialize(handle, hash_mode)

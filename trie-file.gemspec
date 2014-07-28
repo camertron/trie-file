@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email    = ["camertron@gmail.com"]
   s.homepage = "http://github.com/camertron"
 
-  s.description = s.summary = "Memory-efficient cached trie storage."
+  s.description = s.summary = "Memory-efficient cached trie and trie storage."
 
   s.platform = Gem::Platform::RUBY
   s.has_rdoc = true
