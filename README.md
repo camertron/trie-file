@@ -7,7 +7,7 @@ Memory-efficient cached trie and trie storage.
 
 `gem install trie-file`
 
-## Usage
+Then, somewhere in your code:
 
 ```ruby
 require 'trie-file'
